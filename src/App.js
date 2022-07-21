@@ -25,6 +25,20 @@ export default function App() {
       <h1>Weather App</h1>
       <SearchComponent onCityChange={handleCityChange} />
       <WeatherComponent weather={weather} city={city} />
+      <footer class="text-center mt-5">
+        This website was build by{" "}
+        <a href="https://comfy-crepe-8a992d.netlify.app/" target="blank">
+          Esther Della Cagna
+        </a>
+        , and it is{" "}
+        <a
+          href="https://github.com/estherdellacagna/react-wk3-search-engine-homework-1"
+          target="blank"
+        >
+          open sourced
+        </a>{" "}
+        .
+      </footer>
     </div>
   );
 }
